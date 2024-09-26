@@ -1,8 +1,7 @@
 import React from "react";
 import { Timeline } from "./ui/Timeline";
 import VexWorlds from '@/../public/VexWorlds.jpg'
-
-const Club_2021 = 'https://drive.google.com/file/d/1EAhYc_jPTB0UIh78-NUPinDn0DhRi_1l/view?usp=sharing'
+import Club_2021 from '@/../public/Club_2021.png'
 
 export function TimelineDemo() {
   const data = [
@@ -56,7 +55,7 @@ export function TimelineDemo() {
             <li>New members were introduced, and the team regained its strength</li>
           </ul>
           <img 
-            src={Club_2021} 
+            src={Club_2021.src} 
             alt="Leadership transition" 
             className="w-full h-auto rounded-lg shadow-sm mb-6" 
           />
@@ -82,7 +81,7 @@ export function TimelineDemo() {
             <li>Participated in competitions at <strong>CSUN</strong> and <strong>Mt. SAC</strong></li>
             <li>Continued refining our robots and collaboration within the team</li>
           </ul>
-          <video src={'../../Comp_2023_2024.mp4'} width="600" height="300" controls/>
+          <video src={'https://drive.google.com/file/d/1EAhYc_jPTB0UIh78-NUPinDn0DhRi_1l/view?usp=drive_link'} width="600" height="300" controls/>
   
           <h4 className="text-lg md:text-2xl font-semibold text-indigo-500 mb-2">Top 30 in World Skills</h4>
           <p className="text-foreground/90 text-base md:text-xl mb-4">A proud moment for the team:</p>

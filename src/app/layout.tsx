@@ -16,12 +16,12 @@ const generalSans = localFont({
 
 const title = "MCEC";
 const description = "Engineering Club at Moorpark College";
-const image = "https://utfs.io/f/af1c5a9d-0e02-4764-9bec-5272671f0a1d-ipq0ei.jpg"
+const image = "https://omm.needs.rest/MCEClogo.png"
 
 export const metadata: Metadata = {
   title,
   description,
-  icons: ["https://utfs.io/f/af1c5a9d-0e02-4764-9bec-5272671f0a1d-ipq0ei.jpg"],
+  icons: ["https://omm.needs.rest/MCEClogo.png"],
   openGraph: {
     title,
     description,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     images: [image],
     creator: "@maiommhoon",
   },
-  metadataBase: new URL("https://utfs.io"),
+  metadataBase: new URL("https://omm.needs.rest"),
 };
 
 export default function RootLayout({

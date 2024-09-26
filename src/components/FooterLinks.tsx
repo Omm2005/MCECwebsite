@@ -17,6 +17,7 @@ export const RevealLinks = () => {
       <FlipLink href="https://linktr.ee/mc_ec">LinkTree</FlipLink>
       <FlipLink href="mailto:moorparkcollegeengineeringclub@gmail.com">Mail</FlipLink>
       <FlipLink href="https://discord.gg/vWzxV2JV7X">Discord</FlipLink>
+      <FlipLink href="https://www.tiktok.com/@mcec_official">TikTok</FlipLink>
       <FlipLink href="https://www.instagram.com/mcec.official/">Instagram</FlipLink>
         </div>
         <h2 className="text-black text-xl sm:text-4xl md:text-6xl lg:text-9xl md:flex hidden">

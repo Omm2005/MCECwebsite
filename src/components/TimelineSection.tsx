@@ -81,7 +81,8 @@ export function TimelineDemo() {
             <li>Participated in competitions at <strong>CSUN</strong> and <strong>Mt. SAC</strong></li>
             <li>Continued refining our robots and collaboration within the team</li>
           </ul>
-          <video src={'https://drive.google.com/file/d/1EAhYc_jPTB0UIh78-NUPinDn0DhRi_1l/view?usp=drive_link'} width="600" height="300" controls/>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Utm63_CqqgA?si=gsTFWcaa3u1Q-LhW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          {/* <video src={'https://drive.google.com/file/d/1EAhYc_jPTB0UIh78-NUPinDn0DhRi_1l/view?usp=drive_link'} width="600" height="300" controls/> */}
   
           <h4 className="text-lg md:text-2xl font-semibold text-indigo-500 mb-2">Top 30 in World Skills</h4>
           <p className="text-foreground/90 text-base md:text-xl mb-4">A proud moment for the team:</p>

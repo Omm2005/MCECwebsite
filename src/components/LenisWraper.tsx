@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react'
 import ReactLenis from "lenis/react";
-import { GoArrowDownRight, GoArrowUpLeft, GoArrowUpRight } from 'react-icons/go';
+import { GoArrowDownRight, GoArrowUpRight } from 'react-icons/go';
 import { TimelineDemo } from './TimelineSection';
 import { RevealLinks } from './FooterLinks';
 import { Button } from './ui/button';
@@ -135,14 +135,12 @@ const LenisWraper = () => {
   <h2 className='text-4xl sm:text-6xl md:text-7xl lg:text-9xl md:w-1/2 font-semibold px-5 md:px-0 --font-geist-mono text-foreground/90' >
     LET&apos;S MAKE THIS HAPPEN
   </h2>
-  <Link href='https://lu.ma/3zsltrus' target='_blank' >
   <Link href='https://discord.gg/vWzxV2JV7X' target='_blank' >
   <Button className='rounded-full mx-5 py-7 text-xl flex gap-3 group bg-foreground hover:bg-foreground/80 text-background' >
       Join us
   <GoArrowUpRight className='text-2xl group-hover:translate-x-1 group-hover:-translate-y-1 transition-all ease-out' />
   </Button>
       </Link>
-  </Link>
   </div>
 </motion.section>
 <RevealLinks />

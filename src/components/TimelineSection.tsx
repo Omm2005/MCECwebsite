@@ -2,6 +2,7 @@ import React from "react";
 import { Timeline } from "./ui/Timeline";
 import VexWorlds from '@/../public/VexWorlds.jpg'
 import Club_2021 from '@/../public/Club_2021.png'
+import ReactPlayer from 'react-player'
 
 export function TimelineDemo() {
   const data = [
@@ -81,7 +82,7 @@ export function TimelineDemo() {
             <li>Participated in competitions at <strong>CSUN</strong> and <strong>Mt. SAC</strong></li>
             <li>Continued refining our robots and collaboration within the team</li>
           </ul>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Utm63_CqqgA?si=gsTFWcaa3u1Q-LhW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="hidden md:flex" allowFullScreen></iframe>
+          <ReactPlayer url={"https://www.youtube.com/embed/Utm63_CqqgA?si=gsTFWcaa3u1Q-LhW"} width='100%' height='100%' controls />
           {/* <video src={'https://drive.google.com/file/d/1EAhYc_jPTB0UIh78-NUPinDn0DhRi_1l/view?usp=drive_link'} width="600" height="300" controls/> */}
   
           <h4 className="text-lg md:text-2xl font-semibold text-indigo-500 mb-2">Top 30 in World Skills</h4>
@@ -125,7 +126,7 @@ export function TimelineDemo() {
   
   
   return (
-    <div className="w-full h-fit">
+    <div className="w-full h-fit" suppressHydrationWarning>
       <Timeline data={data} />
     </div>
   );
